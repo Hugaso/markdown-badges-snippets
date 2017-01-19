@@ -1,7 +1,11 @@
 '.text.md':
   'badge:githubstars':
-    'prefix': 'githubstars'
-    'body': '[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&style=flat-square)]()'
+    'prefix': 'stars'
+    'body': '[![GitHub stars](https://img.shields.io/github/stars/${1:author}/${2:repo}.svg?style=social&label=Star&style=flat-square)]()'
+
+  'badge:githubrelease':
+    'prefix': 'release'
+    'body': '[![GitHub release](https://img.shields.io/github/release/${1:author}/${2:repo}.svg?style=flat-square)]()'
 
   'badge:author':
     'prefix': 'author'
@@ -18,6 +22,14 @@
   'badge:travis':
     'prefix': 'travis'
     'body': '[![Build Status](https://travis-ci.org/${1:author}/${2:repo}.svg?branch=master)](https://travis-ci.org/${1:author}/${2:repo})$3'
+
+  'badge:appveyor':
+    'prefix': 'appveyor'
+    'body': '[![AppVeyor](https://img.shields.io/appveyor/ci/${1:author}/${2:repo}.svg?style=flat-square)]()'
+
+  'badge:circle':
+    'prefix': 'circle'
+    'body': '[![CircleCI](https://img.shields.io/circleci/project/github/${1:author}/${2:repo}.svg?style=flat-square)]()'
 
   'badge:devDependencies':
     'prefix': 'devDependencies'

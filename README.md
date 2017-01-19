@@ -14,6 +14,15 @@ awesome snippets for markdown to insert badges elegantly(just like this repo)
 [![Code Climate](https://codeclimate.com/github/sabertazimi/badges-snippets/badges/gpa.svg)](https://codeclimate.com/github/sabertazimi/badges-snippets)
 [![codecov](https://codecov.io/gh/sabertazimi/badges-snippets/branch/master/graph/badge.svg)](https://codecov.io/gh/sabertazimi/badges-snippets)
 
+## Pulish
+
+```sh
+# do some stuff
+$ git add .
+$ git commit
+$ apm publish minor
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/sabertazimi/badges-snippets/fork )
