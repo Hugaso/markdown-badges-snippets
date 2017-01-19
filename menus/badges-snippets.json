@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle badges-snippets",
+        "command": "badges-snippets:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "badges-snippets",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "badges-snippets:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
