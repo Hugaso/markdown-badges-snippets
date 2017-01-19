@@ -63,7 +63,7 @@
     
     ## License
 
-    [${5:mit} license](https://raw.githubusercontent.com/${3:author}/${1:repo}/master/LICENSE) [${3:author}](https://github.com/${3:author})
+    [${5:mit} license](https://raw.githubusercontent.com/${3:author}/${1:repo}/master/LICENSE) @[${3:author}](https://github.com/${3:author})
     
     ## Contact
     
