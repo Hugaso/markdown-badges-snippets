@@ -1,14 +1,14 @@
 {
   "name": "badges-snippets",
   "main": "./lib/badges-snippets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "awesome snippets for markdown to insert badges elegantly",
   "keywords": [
-      "snippets",
-      "badges",
-      "markdown",
-      "github",
-      "intergration"
+    "snippets",
+    "badges",
+    "markdown",
+    "github",
+    "intergration"
   ],
   "activationCommands": {
     "atom-workspace": "badges-snippets:toggle"
@@ -19,6 +19,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
