@@ -1,31 +1,35 @@
 '.text.md':
+  'badge:githubstars':
+    'prefix': 'githubstars'
+    'body': '[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star&style=flat-square)]()'
+
   'badge:author':
     'prefix': 'author'
     'body': '[![author](https://img.shields.io/badge/author-${1:author}-lightgrey.svg)](https://github.com/${1:author})$2'
-    
+
   'badge:status':
     'prefix': 'status'
     'body': '[![${1:stable}](https://img.shields.io/badge/stability-${1:stable}-brightgreen.svg)](https://github.com/${2:author}/${3:repo})$4'
-    
+
   'badge:license':
     'prefix': 'license'
     'body': '[![${1:mit}](https://img.shields.io/badge/license-${1:mit}-brightgreen.svg)](https://raw.githubusercontent.com/${2:author}/${3:repo}/master/LICENSE)$4'
-    
+
   'badge:travis':
     'prefix': 'travis'
     'body': '[![Build Status](https://travis-ci.org/${1:author}/${2:repo}.svg?branch=master)](https://travis-ci.org/${1:author}/${2:repo})$3'
-    
+
   'badge:devDependencies':
     'prefix': 'devDependencies'
     'body': '[![devDependencies Status](https://david-dm.org/${1:author}/${2:repo}/dev-status.svg?style=flat-square)](https://david-dm.org/${1:author}/${2:repo}?type=dev)$3'
-    
+
   'badge:bithound':
     'prefix': 'bithound'
     'body': """
     [![bitHound Code](https://www.bithound.io/github/${1:author}/${2:repo}/badges/code.svg)](https://www.bithound.io/github/${1:author}/${2:repo})
     [![bitHound Overall Score](https://www.bithound.io/github/${1:author}/${2:repo}/badges/score.svg)](https://www.bithound.io/github/${1:author}/${2:repo})$3
     """
-    
+
   'badge:code-climate':
     'prefix': 'code-climate'
     'body': '[![Code Climate](https://codeclimate.com/github/${1:author}/${2:repo}/badges/gpa.svg)](https://codeclimate.com/github/${1:author}/${2:repo})$3' 
@@ -41,32 +45,32 @@
     *   [![GitHub](https://img.shields.io/badge/contact-github-000000.svg?style=flat-square)](https://github.com/${1:author})
     *   [![Twitter](https://img.shields.io/badge/contact-twitter-blue.svg?style=flat-square)](https://twitter.com/${1:author})$3
     """
-    
+
   'markdown-boilerplate':
     'prefix': 'markdown-boilerplate'
     'body': """
     # ${1:repo}
-    
+
     ${2:description}
-    
+
     [![author](https://img.shields.io/badge/author-${3:author}-lightgrey.svg)](https://github.com/${3:author})
     [![${4:stable}](https://img.shields.io/badge/stability-${4:stable}-brightgreen.svg)](https://github.com/${3:author}/${1:repo})
     [![${5:mit}](https://img.shields.io/badge/license-${5:mit}-brightgreen.svg)](https://raw.githubusercontent.com/${3:author}/${1:repo}/master/LICENSE)
-    
+
     [![Build Status](https://travis-ci.org/${3:author}/${1:repo}.svg?branch=master)](https://travis-ci.org/${3:author}/${1:repo})
     [![devDependencies Status](https://david-dm.org/${3:author}/${1:repo}/dev-status.svg?style=flat-square)](https://david-dm.org/${3:author}/${1:repo}?type=dev)
-    
+
     [![bitHound Code](https://www.bithound.io/github/${3:author}/${1:repo}/badges/code.svg)](https://www.bithound.io/github/${3:author}/${1:repo})
     [![bitHound Overall Score](https://www.bithound.io/github/${3:author}/${1:repo}/badges/score.svg)](https://www.bithound.io/github/${3:author}/${1:repo})
     [![Code Climate](https://codeclimate.com/github/${3:author}/${1:repo}/badges/gpa.svg)](https://codeclimate.com/github/${3:author}/${1:repo})
     [![codecov](https://codecov.io/gh/${3:author}/${1:repo}/branch/master/graph/badge.svg)](https://codecov.io/gh/${3:author}/${1:repo})
-    
+
     ## License
 
     [${5:mit} license](https://raw.githubusercontent.com/${3:author}/${1:repo}/master/LICENSE) @[${3:author}](https://github.com/${3:author})
-    
+
     ## Contact
-    
+
     *   [![Email](https://img.shields.io/badge/mailto-${3:author}-brightgreen.svg?style=flat-square)](mailto:${6:author@gmail.com})
     *   [![GitHub](https://img.shields.io/badge/contact-github-000000.svg?style=flat-square)](https://github.com/${3:author})
     *   [![Twitter](https://img.shields.io/badge/contact-twitter-blue.svg?style=flat-square)](https://twitter.com/${3:author})$7
