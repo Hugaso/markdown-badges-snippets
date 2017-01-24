@@ -1,7 +1,7 @@
 {
   "name": "markdown-badges-snippets",
   "main": "./lib/markdown-badges-snippets",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "awesome markdown snippets for markdown to insert badges elegantly",
   "keywords": [
     "snippets",
