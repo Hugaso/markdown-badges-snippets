@@ -1,19 +1,19 @@
 {
-  "name": "badges-snippets",
-  "main": "./lib/badges-snippets",
+  "name": "markdown-badges-snippets",
+  "main": "./lib/markdown-badges-snippets",
   "version": "0.3.0",
-  "description": "awesome snippets for markdown to insert badges elegantly",
+  "description": "awesome markdown snippets for markdown to insert badges elegantly",
   "keywords": [
     "snippets",
-    "badges",
     "markdown",
+    "badges",
     "github",
     "intergration"
   ],
   "activationCommands": {
-    "atom-workspace": "badges-snippets:toggle"
+    "atom-workspace": "markdown-badges-snippets:toggle"
   },
-  "repository": "https://github.com/sabertazimi/badges-snippets",
+  "repository": "https://github.com/sabertazimi/markdown-badges-snippets",
   "author": "sabertazimi",
   "license": "MIT",
   "engines": {

@@ -1,18 +1,18 @@
-# badges-snippets
+# markdown-badges-snippets
 
-awesome snippets for markdown to insert badges elegantly(just like this repo)
+awesome markdown snippets for markdown to insert badges elegantly(just like this repo)
 
 [![author](https://img.shields.io/badge/author-sabertazimi-lightgrey.svg)](https://github.com/sabertazimi)
-[![stable](https://img.shields.io/badge/stability-stable-brightgreen.svg)](https://github.com/sabertazimi/bbadges-snippets)
-[![mit](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://raw.githubusercontent.com/sabertazimi/badges-snippets/master/LICENSE)
+[![stable](https://img.shields.io/badge/stability-stable-brightgreen.svg)](https://github.com/sabertazimi/markdown-badges-snippets)
+[![mit](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://raw.githubusercontent.com/sabertazimi/markdown-badges-snippets/master/LICENSE)
 
-[![Build Status](https://travis-ci.org/sabertazimi/badges-snippets.svg?branch=master)](https://travis-ci.org/sabertazimi/badges-snippets)
-[![devDependencies Status](https://david-dm.org/sabertazimi/badges-snippets/dev-status.svg?style=flat-square)](https://david-dm.org/sabertazimi/badges-snippets?type=dev)
+[![Build Status](https://travis-ci.org/sabertazimi/markdown-badges-snippets.svg?branch=master)](https://travis-ci.org/sabertazimi/markdown-badges-snippets)
+[![devDependencies Status](https://david-dm.org/sabertazimi/markdown-badges-snippets/dev-status.svg?style=flat-square)](https://david-dm.org/sabertazimi/markdown-badges-snippets?type=dev)
 
-[![bitHound Code](https://www.bithound.io/github/sabertazimi/badges-snippets/badges/code.svg)](https://www.bithound.io/github/sabertazimi/badges-snippets)
-[![bitHound Overall Score](https://www.bithound.io/github/sabertazimi/badges-snippets/badges/score.svg)](https://www.bithound.io/github/sabertazimi/badges-snippets)
-[![Code Climate](https://codeclimate.com/github/sabertazimi/badges-snippets/badges/gpa.svg)](https://codeclimate.com/github/sabertazimi/badges-snippets)
-[![codecov](https://codecov.io/gh/sabertazimi/badges-snippets/branch/master/graph/badge.svg)](https://codecov.io/gh/sabertazimi/badges-snippets)
+[![bitHound Code](https://www.bithound.io/github/sabertazimi/markdown-badges-snippets/badges/code.svg)](https://www.bithound.io/github/sabertazimi/markdown-badges-snippets)
+[![bitHound Overall Score](https://www.bithound.io/github/sabertazimi/markdown-badges-snippets/badges/score.svg)](https://www.bithound.io/github/sabertazimi/markdown-badges-snippets)
+[![Code Climate](https://codeclimate.com/github/sabertazimi/markdown-badges-snippets/badges/gpa.svg)](https://codeclimate.com/github/sabertazimi/markdown-badges-snippets)
+[![codecov](https://codecov.io/gh/sabertazimi/markdown-badges-snippets/branch/master/graph/badge.svg)](https://codecov.io/gh/sabertazimi/markdown-badges-snippets)
 
 ## Pulish
 
@@ -25,7 +25,7 @@ $ apm publish minor
 
 ## Contributing
 
-1. Fork it ( https://github.com/sabertazimi/badges-snippets/fork )
+1. Fork it ( https://github.com/sabertazimi/markdown-badges-snippets/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -33,7 +33,7 @@ $ apm publish minor
 
 ## License
 
-[mit license](https://raw.githubusercontent.com/sabertazimi/badges-snippets/master/LICENSE) [sabertazimi](https://github.com/sabertazimi)
+[mit license](https://raw.githubusercontent.com/sabertazimi/markdown-badges-snippets/master/LICENSE) [sabertazimi](https://github.com/sabertazimi)
 
 ## Contact
 

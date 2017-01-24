@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle badges-snippets",
-        "command": "badges-snippets:toggle"
+        "label": "Toggle markdown-badges-snippets",
+        "command": "markdown-badges-snippets:toggle"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "badges-snippets",
+          "label": "markdown-badges-snippets",
           "submenu": [
             {
               "label": "Toggle",
-              "command": "badges-snippets:toggle"
+              "command": "markdown-badges-snippets:toggle"
             }
           ]
         }
